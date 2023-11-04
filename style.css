@@ -1,0 +1,114 @@
+.container {
+    text-align: center;
+    font-family: Inter;
+    background: #1A1B21;
+    color: #DCDCDC;
+    line-height: normal;
+}
+
+/* Info Section */
+.info--image {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 357px;
+    background-color: #DCDCDC;
+    background-image: url("./images/profile-pic.png");
+    background-position: center, -207.665px -133.577px;
+    background-size: cover, 210.625% 315.631%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.info--name {
+    color: #FFF;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.info--role {
+    margin-top: 0;
+    color: #F3BF99;
+    font-size: 12px;
+    font-weight: 400;
+}
+.info--website {
+    color: #F5F5F5;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.info--buttons {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.info--buttons > button {
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid var(--gray-300, #D1D5DB);
+    width: 100%;
+    padding: 9px 13px 9px 11px;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    }
+.info--email {
+    margin: 0 17px 0 35px;
+    border-radius: 6px;
+    background: #FFF;
+}
+.info--email-icon, .info--linkedin-icon {
+    margin-right: 8px;
+}
+.info--linkedin {
+    margin: 0 35px 0 0;
+    border-radius: 6px;
+    background: #5093E2;
+    color: #fff;
+}
+
+/* About Section */
+.about {
+    margin-top: 33px;
+}
+.about, .interests {
+    text-align: left;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.title {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #F5F5F5;
+}
+.sub-title {
+    font-size: 10px;
+    margin-top: 0;
+    line-height: 150%
+}
+
+.interests {
+    margin-top: 27px;
+}
+.footer-icons {
+    border-radius: 0px 0px 10px 10px;
+    background: #161619;
+    margin-top: 24px;
+}
+.footer-icons > img {
+    margin-top: 19px;
+    margin-bottom: 20px;
+    width: 25px;
+    height: 25px;
+    fill: #918E9B;
+}
+.footer--x-icon {
+    margin-right: 24px;
+}
+.footer--facebook-icon {
+    margin-right: 24px;
+}
+.footer--instagram-icon {
+    margin-right: 24px;
+}
+.footer--github-icon {
+}
